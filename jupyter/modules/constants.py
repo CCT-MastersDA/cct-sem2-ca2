@@ -27,7 +27,7 @@ DATASETS_FOLDER = join(CURR_PATH, 'datasets')
 TWEETS_DS_RAW = join(DATASETS_FOLDER, 'tweets_raw.csv')
 
 # path to the tweets dataset after pre-processing
-TWEETS_DS = join(DATASETS_FOLDER, 'tweets_proc.csv')
+TWEETS_SENT = join(DATASETS_FOLDER, 'tweets_sentiment.csv')
 
 # max number of features for the vectorizer strategy
 MAX_FEATURES = 5000
@@ -36,5 +36,4 @@ MAX_FEATURES = 5000
 warnings.filterwarnings('ignore')
 
 # image files
-GRAPH_WORD_FREQ = 'tweets_wordfreq.png'
-GRAPH_ACC_NAIVE_BAYES = 'tweets_nb.png'
+TWEETS_WORD_CLOUD = 'tweets-word-cloud.png'
