@@ -36,4 +36,4 @@ MAX_FEATURES = 5000
 warnings.filterwarnings('ignore')
 
 # image files
-TWEETS_WORD_CLOUD = 'tweets-word-cloud.png'
+TWEETS_WORD_CLOUD = 'tweets-word-cloud'
