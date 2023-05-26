@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# This script reads a local results folder with
+# the output from the YCSB benchmarking tool execution.
+# The parsed results are expected to be stored in a file
+# called measurement_results.csv in the local folder.
+
 # Output CSV file path
 OUTPUT_FILE="measurement_results.csv"
 

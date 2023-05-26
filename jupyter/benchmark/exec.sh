@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# This script trigger the YCSB benchmarking tool and
+# results parser to generate the final csv file
+# with the measurement results collected from the analysis.
+# It accepts the number of executions as input or 1
+# execution will be made by default.
+
 # Retrieve the number of executions from the argument
 num_executions=$1
 

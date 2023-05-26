@@ -1,6 +1,11 @@
 #!/bin/bash
 
-# Path to the ycsb folder
+# This script runs the YCSB benchmarking tool using the
+# properties and config defined locally in the machine
+# for MYSQL and MongoDB. Please, adatpt the script
+# parameters to your own needs before using it.
+
+# Path to the local ycsb folder
 YCSB_PATH="/home/hduser/ycsb-0.17.0"
 
 # Create the results folder (delete it first if exists)
